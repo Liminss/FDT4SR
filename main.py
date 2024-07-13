@@ -19,7 +19,7 @@ def main():
     parser.add_argument('--data_dir', default='./data/', type=str)
     parser.add_argument('--output_dir', default='output/', type=str)
     parser.add_argument('--data_name', default='LastFM', type=str)
-    parser.add_argument('--do_eval', action='store_false')
+    parser.add_argument('--do_eval', action='store_true')
     parser.add_argument('--similarity_model_name', default='ItemCF_IUF', type=str, 
                         help="Method to generate item similarity score. choices: ItemCF, ItemCF_IUF(Inverse user frequency)")
 
