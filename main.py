@@ -114,7 +114,7 @@ def main():
     if args.do_eval:
         # load the best model
         print('---------------load best model and do eval-------------------')
-        trainer.model.load_state_dict(torch.load(args.checkpoint_path)) # ".\reproduction\LastFM.pt"
+        trainer.model.load_state_dict(torch.load(args.checkpoint_path)) # "./reproduction/LastFM.pt"
         trainer.args.train_matrix = test_rating_matrix
         scores, result_info = trainer.test('best', full_sort=True)
     else:
