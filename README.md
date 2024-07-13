@@ -25,7 +25,7 @@ If you use your own environment or dataset, we provide some suggestions and rang
 * learning rate ∈ {0.001,0.0001}
 * ss_probability ∈ [0,0.1], step by 0.01
 ## Reproduce
-We give the model files trained on the Home, Sports, Beauty, Tools, Office, and LastFM datasets in folder xx.
+We give the model files trained on the Home, Sports, Beauty, Tools, Office, and LastFM datasets in folder 'reproduction'.
 ```
 python main.py --data_name=[DATA_NAME] --checkpoint_path="./reproduction/[DATA_NAME].pt" --do eval
 ```
