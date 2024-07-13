@@ -9,7 +9,7 @@ torch 1.13.1+cu117
 ## Training
 ```
 python main.py \
---data_name data_name \
+--data_name [DATA_NAME] \
 --hidden_size 200 \
 --attention_probs_dropout_prob 0.5 \
 --hidden_dropout_prob 0.5 \
