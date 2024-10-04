@@ -1,5 +1,5 @@
 # FDT4SR
-The detailed modules code will be published after the paper is received.
+Source code for our Paper "Filtering-enhanced Denoising Transformer for Sequential Recommendation"
 # Implementation
 ## Environment
 ```
