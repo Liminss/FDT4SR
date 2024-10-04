@@ -21,7 +21,7 @@ python main.py \
 If you use your own environment or dataset, we provide some suggestions and ranges for fine-tuning of hyper-parameters.
 * num_hidden_layers ∈ {1,2,3}
 * num_attention_heads ∈ {2,4}
-* dropout rate ∈ {0.2,0.3,0.5}
+* dropout rate ∈ {0.3,0.5,0.7}
 * learning rate ∈ {0.001,0.0001}
 * ss_probability ∈ [0,0.1], step by 0.01
 ## Reproduce
