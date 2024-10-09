@@ -15,6 +15,9 @@ Beauty:
   ss_probability：0.05
   lr：0.0001
   batch_szie:128
+Total Parameters: 1810532
+---------------load best model and do eval-------------------
+{'Epoch': 'best', 'HIT@1': '0.0193', 'HIT@5': '0.0521', 'NDCG@5': '0.0359', 'HIT@10': '0.0761', 'NDCG@10': '0.0436', 'HIT@20': '0.1095', 'NDCG@20': '0.0520', 'HIT@40': '0.1523', 'NDCG@40': '0.0608', 'MRR': '0.0376'}
 
 Tools:
   hidden_size：128
