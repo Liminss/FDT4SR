@@ -30,6 +30,9 @@ Tools:
   ss_probability：0.08
   lr：0.0001
   batch_szie:128
+Total Parameters: 1569380
+---------------load best model and do eval-------------------
+{'Epoch': 'best', 'HIT@1': '0.0139', 'HIT@5': '0.0344', 'NDCG@5': '0.0243', 'HIT@10': '0.0511', 'NDCG@10': '0.0297', 'HIT@20': '0.0745', 'NDCG@20': '0.0355', 'HIT@40': '0.1027', 'NDCG@40': '0.0413', 'MRR': '0.0257'}
 
 LastFM:
   hidden_size：128
