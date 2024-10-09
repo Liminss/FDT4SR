@@ -6,6 +6,9 @@ Sports:
   ss_probability：0.05
   lr：0.0001
   batch_szie:128
+Total Parameters: 2611300
+---------------load best model and do eval-------------------
+{'Epoch': 'best', 'HIT@1': '0.0123', 'HIT@5': '0.0331', 'NDCG@5': '0.0228', 'HIT@10': '0.0481', 'NDCG@10': '0.0276', 'HIT@20': '0.0711', 'NDCG@20': '0.0334', 'HIT@40': '0.1029', 'NDCG@40': '0.0399', 'MRR': '0.0240'}
 
 Beauty:
   hidden_size：128
