@@ -42,6 +42,9 @@ LastFM:
   ss_probability：0.07
   lr：0.001
   batch_szie:256
+Total Parameters: 662500
+---------------load best model and do eval-------------------
+{'Epoch': 'best', 'HIT@1': '0.0202', 'HIT@5': '0.0633', 'NDCG@5': '0.0421', 'HIT@10': '0.0936', 'NDCG@10': '0.0517', 'HIT@20': '0.1294', 'NDCG@20': '0.0608', 'HIT@40': '0.1798', 'NDCG@40': '0.0710', 'MRR': '0.0432'}
 
 Hardware
 CPU: 12 vCPU Intel(R) Xeon(R) Silver 4214R CPU @ 2.40GHz
